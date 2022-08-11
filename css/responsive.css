@@ -1,7 +1,4 @@
 
-/* Section 1 (homepage + navigation) */
-
-
 @media (max-width: 1920px) {
 .navigation-wrapper {
     flex-wrap: wrap;
@@ -28,8 +25,8 @@
  
 .block-wrapper {
     flex-direction: column;
-    justify-content: center;
-    width: 100%;
+    align-items: center;
+    text-align: center;
     }
 .sec1text {
     display: flex;
@@ -44,15 +41,14 @@
     }
 .container-block {
     flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    margin-left: 10px 10px 0 10px;
-       }
+    align-items: center;
+    text-align: center;
+    }
 .text-block {
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-       }
+    }
 
 }
 
@@ -69,25 +65,19 @@
     flex-wrap: wrap;
     width: 100%;
     }
-
 .sec1text {
     flex-wrap: wrap;
     width: 100%;
     }
 .row-01 {
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    margin-bottom: 40px;
+    flex-direction: column; 
+    align-items: center;
    }
-   .row-02 {
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
+.row-02 {
+    flex-direction: column; 
+    align-items: center;
    }
-   .container-block {
+.container-block {
     width: 100%;
    }
 }
@@ -100,23 +90,14 @@
     }
 .gesture {
     flex-wrap: wrap;
-     width: 100%;
+    width: 100%;
     }
-    .row-01 {
-        flex-wrap: wrap;
-        flex-direction: column;
-        justify-content: center;
-        width: 100%;
-        margin: auto;
-
-       }
-       .row-02 {
-        flex-wrap: wrap;
-        flex-direction: column;
-        justify-content: center;
-        width: 100%;
-        margin: auto;
-       }
-    
-      
+.row-01 {
+    flex-direction: column; 
+    align-items: center;
+    }
+.row-02 {
+    flex-direction: column; 
+    align-items: center;
+    } 
 }
